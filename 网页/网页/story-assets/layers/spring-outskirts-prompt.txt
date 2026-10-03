@@ -1,0 +1,8 @@
+Built-in image_gen; transparent_background=false
+Use case: historical-scene.
+Asset type: widescreen background plate for shot 9 of a Chinese animated peony scroll.
+Input image: reference for style, setting, spring colors and temple-outskirts atmosphere.
+Primary request: make a clean layered-animation background from this scene. Remove all written text, seals, banners with characters, large floating ribbons and the large foreground figures. Preserve the distant blue-green mountains, lake, stone bridge, temple pagoda and willow trees. Keep small varied distant visitors—older and younger men and women—on the winding peony-lined path at middle distance.
+Composition: wide 16:9. An open level pale stone and earth path in the lower centre and lower right, clearly visible down to the bottom edge, reserved for a mother and child to be added later. Low peony beds border the path, with space at the right foreground for a separate single flower stem. Temple roofs and distant green hills occupy the middle top. Keep the upper left calm and airy for narration. No people larger than one eighth of image height. No foreground character. Soft early spring daylight.
+Style: refined Chinese gongbi and mineral pigment watercolor on pale warm paper, teal-green hills, blush and cinnabar peonies, delicate ink contours and gold flecks; match the reference.
+Constraints: no text, calligraphy, letters, labels, seals, watermark, modern objects, modern clothing, transparent holes or isolated foreground sprites. The picture must fill the canvas.

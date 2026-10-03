@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-03",
+  "shot": 9,
+  "status": "browser-playback-sampled",
+  "browser": "Codex in-app browser",
+  "assets": [
+    "story-assets/layers/spring-outskirts.png",
+    "story-assets/layers/spring-family-puppet-v2.png",
+    "story-assets/layers/spring-peony-stem.png"
+  ],
+  "retainedDraft": "story-assets/layers/spring-family-puppet.png",
+  "generation": "Built-in image_gen; full prompts saved beside each PNG",
+  "playback": [
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "start": 52.01,
+      "sampledTimes": [
+        53.052,
+        55.026,
+        57.076
+      ],
+      "stoppedAt": 59.14,
+      "stoppedShot": 10
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "start": 52.01,
+      "sampledTimes": [
+        53.043,
+        55.068,
+        57.085
+      ],
+      "stoppedAt": 59.13,
+      "stoppedShot": 10
+    }
+  ],
+  "observed": [
+    "Child reaches toward a separate grounded peony",
+    "Mother moves her hand toward the moving wrist, then both arms lower",
+    "Both faces and flower remain visible at sampled times",
+    "Narration avoids faces and outstretched hands at sampled times",
+    "Kite sways above the temple scenery",
+    "Both playback runs cross into shot 10"
+  ],
+  "repairsDuringReview": [
+    "Removed duplicated hanging near arm from child atlas through image_gen edit",
+    "Lowered mother shoulder socket to reduce sleeve overlap at child jaw",
+    "Adjusted portrait scale and horizontal placement",
+    "Placed narration above-left on desktop and over lower robes in portrait"
+  ],
+  "automatedChecks": {
+    "command": "node tools/check-timeline.mjs",
+    "finalRevisionPassed": true,
+    "scope": "18 exact source shots/quotes and 119-second timeline; runtime files, PNG RGBA and measured dimensions; atlas crop bounds; reach-catch-withdraw and wrist tracking; projected face/flower anchors at 1280x720,390x844,320x740,768x1024. Does not establish visual quality at every frame or extreme viewport."
+  },
+  "offlineFrames": {
+    "command": "node tools/render-story-frames.mjs",
+    "paths": [
+      "story-frames/shot-09.png",
+      "story-frames/puppet-actions.jpg",
+      "story-frames/shot-09-mobile-contact.jpg"
+    ],
+    "scope": "18 production stills, seven action rows, portrait contact sheets for shots 09/11/13 at 18%,50%,85%",
+    "currentWithFinalRenderer": true,
+    "note": "Canvas only; DOM narration excluded. Previous shot 11/13 browser evidence remains historical; their playback was not rerun after the current shared-source edits."
+  },
+  "remaining": [
+    "Distant crowd is painted into the background and has no independent walking animation",
+    "Foreground approach is shared translation and bob, not articulated walking gait",
+    "Close reframing does not provide a genuinely redrawn low-angle child perspective",
+    "Dedicated petal wipe is not implemented; generic pale transition remains",
+    "Shoulder seam and palm/wrist contact need frame-by-frame polish",
+    "Pointer parallax and touch interaction not checked in this review",
+    "Target external desktop browser and real phone not verified"
+  ],
+  "artReady": false,
+  "temporaryViewportReset": true,
+  "handoff": {
+    "url": "http://127.0.0.1:8787/experience.html?shot=9&at=4.0",
+    "pausedAt": 56,
+    "shot": 9
+  },
+  "sourceSha256": {
+    "story-spring.mjs": "72dff2bbf348d0d9fa385e0fd5b824385074b3f53262a0274a5a3fbf9006484a",
+    "story-core.mjs": "99ba57b312b5b5ae2096ccc9aa1a46cb0ab5076718fd6b8baeaf05ef1ea685d3",
+    "story-renderer.mjs": "57ef550fdce5d8a7b87f6d2a4330a54c846b769ff0e7a710b6a1db746d4879c8",
+    "story.css": "005cac9ab25926537a35f16ff4f444cdda4668f11c843454145c25eca6f93bfe",
+    "story-timeline.json": "8a8cbb07439620389316498c7c36b6dbb0104c262d8d56c8a732ab343cdee4e0",
+    "story-layer-manifest.json": "ba16111e3bc7c94807a5a3c1f6ee145a14ca05fd7e22a6bed78ed336844c2d60"
+  }
+}

@@ -1,0 +1,7 @@
+Built-in image_gen; transparent_background=true
+Use case: precise-object-edit.
+Edit target: the attached mother-and-child transparent puppet sheet.
+Make one local correction only: REMOVE the child's NEAR hanging arm, sleeve and hand on the viewer's LEFT side of the child (the arm directly beneath the mother's hand resting on the child's shoulder). That near arm will be drawn separately by the animation engine. Paint the child's full ivory torso and russet tunic smoothly beneath where that sleeve used to be. There must be no hanging near sleeve on the child's viewer-left side after the edit.
+Keep the child's FAR arm and hand hanging on the viewer's RIGHT side of the child.
+Preserve everything else exactly: mother's full body and missing near arm socket, her far sleeve and hand resting on child's shoulder, both faces, body proportions, clothing, feet, body-group position, two isolated arm pieces on the right, total canvas aspect and clear gutters.
+Keep the original painted style and genuinely transparent background. No new objects, text, ground, shadows, extra hands or limbs.

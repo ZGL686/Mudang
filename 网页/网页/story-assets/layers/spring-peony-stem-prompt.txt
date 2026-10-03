@@ -1,0 +1,7 @@
+Built-in image_gen; transparent_background=true
+Use case: historical-scene.
+Asset type: isolated foreground peony plant for a child reaching toward a flower in a Chinese scroll animation.
+Input image: use only its gongbi ink and mineral-pigment flower and leaf style.
+Create ONE slender upright rooted peony plant, complete from the base of the stem to the flower. One fully opened warm rose-pink peony at the TOP, three-quarter front view, modest flower head occupying only the upper quarter of the composition. A long graceful woody stem with a few branches and muted teal-green leaves continues down to the bottom. One small closed bud on a side branch. The plant is tall and airy, not a dense bouquet; its large flower should be reachable on its left edge by a hand added in animation.
+Composition: tall portrait, entire plant centred with a small transparent margin, natural uncut bottom stem, no pot or soil mound. Height about twice its width. Pale handpainted petal highlights, fine ink outlines, antique gold grain accents matching the reference.
+Constraints: genuine transparent alpha, no background, vase, container, ground, shadow, people, hands, text, extra flowers, labels, watermark or border.

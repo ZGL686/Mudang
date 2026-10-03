@@ -1,0 +1,8 @@
+Use case: historical-scene
+Asset type: transparent character cutout for the 2D Canvas story scene.
+Input image 1: .reference-images/shot-07-source.png, Tang banquet costume and character reference only.
+Input image 2: existing banquet-puppet.png, painted sprite style and edge texture reference only.
+Subject: one adult Tang palace attendant standing at a spring garden banquet, in a pale rose and muted coral Tang ruqun with restrained peony embroidery and refined high coiffure; holding a round silk fan in both hands at chest height; three-quarter view looking toward the seated emperor. Include the complete figure from hair to shoes.
+Style: hand-painted Chinese mineral pigment and watercolor illustration, muted cinnabar, jade, teal and warm gold, delicate paper grain.
+Composition: portrait 2:3 transparent cutout, complete silhouette with a small transparent margin.
+Constraints: true transparent background, no scenery, no text, no watermark, no glow, no cast shadow, no extra figures, no cropped body parts.

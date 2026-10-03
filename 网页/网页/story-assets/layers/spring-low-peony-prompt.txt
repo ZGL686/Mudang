@@ -1,0 +1,7 @@
+Built-in image_gen; transparent_background=true
+Use case: illustration-story.
+Asset type: transparent foreground flower for a low-angle animated spring garden.
+Input image is the identity, palette and brushwork reference for the SAME tall peony stem, red-pink flower, small side bud and dark sage leaves.
+Redraw this one botanical stem from a genuinely LOW camera looking upward about 25 degrees. The large open bloom is above the viewer's eye line: show the overlapping UNDERSIDES of the lower red-pink petals, green sepals and the bowl silhouette; the golden stamen centre is only partly visible along the upper rim, not a full top-down circular face. Leaves show their paler undersides and veining. Lower stem foreshortens naturally toward the viewer.
+A single upright plant, complete slender woody stem down to its bottom tip, one large blossom in the upper quarter, one smaller unopened bud at the right middle, several distinct leaves with restrained gold vein accents. Preserve recognizable species and the reference's muted reds, warm pinks, mineral green and delicate Chinese gongbi line work.
+Tall 1:2 portrait composition. Keep all petals, leaves and lower stem inside the canvas with transparent margins. No people, hands, ground, pot, scenery, paper rectangle, shadow, text or watermark. Genuinely transparent RGBA background.

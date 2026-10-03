@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-03",
+  "requestedRemote": "https://github.com/ZGL686/Mudang.git",
+  "repositoryMetadata": {
+    "visibility": "public",
+    "defaultBranch": "main",
+    "size": 0,
+    "connectorUser": "DewMysimple",
+    "connectorPushPermission": false
+  },
+  "localGitRepository": true,
+  "initializationAuthorization": "Explicit user instruction on 2026-10-03 to resolve repository initialization and write permission restrictions",
+  "localGitAuthorConfigured": true,
+  "localGitPushCredentialsVerified": true,
+  "proposedInitialImport": [
+    "AGENTS.md and .gitignore",
+    "wiki_memory",
+    "网页/网页 runtime, assets, tools, QA summaries and contact sheets",
+    "root source documents and source video"
+  ],
+  "localOnly": [
+    "生成图.zip",
+    ".source-cache/",
+    ".video-frames/",
+    ".reference-images/",
+    "**/.qa/clip-*-frames/"
+  ],
+  "networkObservation": "Initialized origin; remote HEAD query succeeded with no refs. Authenticated GitHub API confirms repository ZGL686/Mudang, push:true, default branch main.",
+  "localBranch": "main",
+  "localOrigin": "https://github.com/ZGL686/Mudang.git",
+  "authentication": "Git Credential Manager device authorization completed by user; Windows credential store; official GitHub API confirms authenticated login ZGL686 and repository push:true",
+  "snapshotPhase": "Setup verified before initial commit; final commit and push results are established by Git history and remote refs, not predeclared in this tracked snapshot.",
+  "localGitAccount": "ZGL686",
+  "localGitPushPermission": true,
+  "authorEmailPolicy": "Verified account numeric ID and login with GitHub users.noreply.github.com domain; repository-local configuration"
+}

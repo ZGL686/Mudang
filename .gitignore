@@ -1,0 +1,14 @@
+# Rebuildable working caches; files remain on the local drive.
+/.source-cache/
+/.video-frames/
+/.reference-images/
+**/.qa/clip-*-frames/
+
+# Original 120 MB archive; extracted project images remain versioned.
+/生成图.zip
+
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+Use case: historical-scene
+Asset type: transparent character cutout for the 2D Canvas story scene.
+Input image 1: .reference-images/shot-07-source.png, Tang banquet costume and character reference only.
+Input image 2: existing banquet-puppet.png, painted sprite style and edge texture reference only.
+Subject: one dignified adult Tang emperor seated at a spring banquet, in an ochre-gold robe with restrained peony brocade and a black Tang court headpiece; three-quarter view facing right; holding a small celadon wine cup near chest height. Include the full seated pose, low dark carved stool, shoes, hands, cup and robe hem.
+Style: hand-painted Chinese mineral pigment and watercolor illustration, muted cinnabar, jade, teal and warm gold, delicate paper grain.
+Composition: landscape 3:2 transparent cutout, complete silhouette with a small transparent margin.
+Constraints: true transparent background, no scenery, no text, no watermark, no glow, no cast shadow, no extra figures, no cropped body parts.

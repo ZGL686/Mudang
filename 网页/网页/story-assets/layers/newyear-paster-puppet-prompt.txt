@@ -1,0 +1,10 @@
+Built-in image_gen; transparent_background=true
+Use case: historical-scene.
+Asset type: transparent 2D puppet sprite sheet for an animated Chinese painted winter festival.
+Input image 1 is a style and costume reference, not a scene to reproduce.
+Primary request: extract/reinterpret the rightmost woman posting the large peony New Year picture as a full-body animation puppet in exactly TWO isolated parts.
+LEFT 64%: one adult Chinese woman, three-quarter back view facing right, calm profile looking up-right toward the picture. Black hair in a modest high bun, muted teal robe with antique-gold floral edging, ivory cuffs, russet sash, long skirt and both boots completely visible. Her FAR arm is raised above shoulder height with an open hand steadying the upper edge of an invisible picture. Her NEAR arm is entirely absent from the shoulder so a separate sleeve can attach; make the torso complete under the missing arm with no stump. Keep her torso upright.
+RIGHT 30%: her one separate NEAR arm with the same teal outer sleeve and ivory cuff, shoulder socket at its lower-left, elbow bent, wrist and open palm reaching diagonally up-right to smooth an invisible vertical picture. Large rounded overlap at the shoulder for rigging. Fingers together and anatomically clear.
+Composition: wide horizontal sheet, all parts fully visible with generous clear transparent margin, at least 8% empty gap between the two parts. Feet aligned near the bottom of the left region. Do not place labels.
+Style: refined Chinese gongbi ink and mineral pigment watercolor, matching the reference brushwork, modest household clothing, warm lantern side light.
+Constraints: real transparent alpha. No background, wall, paper, poster, lantern, snow, ground, cast shadow, extra person, added arm, text, lettering or watermark. Keep the separate arm unconnected to the body.

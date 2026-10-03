@@ -1,0 +1,7 @@
+Built-in image_gen; transparent_background=true
+Use case: historical-scene.
+Asset type: one isolated peony New Year paper picture for a Chinese animated ink painting.
+Input image: style reference for the large flower print on the rightmost wooden window. Create that decorative object alone.
+Subject: a single rectangular vertical Chinese folk New Year picture printed on soft ivory paper, one large blooming blush-pink and cinnabar peony, moss-teal leaves and two smaller buds, fine antique gold ornamental border with a muted red outer band. Modest hand-painted festival print matching the reference gongbi watercolor grain.
+Composition: exact straight-on front view, portrait 2:3 proportion, four corners visible and nearly rectangular, only a subtle irregular paper edge, a narrow uniform transparent margin. Flat paper with no rod, frame or tassel. Bright enough to read against dark timber.
+Constraints: genuine transparent background around the paper. No people, hands, snow, wall, ground, lettering, calligraphy, seals, labels, watermark, extra objects or cast shadow. The entire paper surface itself is opaque.

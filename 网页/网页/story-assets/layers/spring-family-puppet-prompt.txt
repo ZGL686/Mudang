@@ -1,0 +1,11 @@
+Built-in image_gen; transparent_background=true
+Use case: historical-scene.
+Asset type: transparent animation puppet sheet for a spring peony outing.
+Input reference: use its Chinese gongbi watercolor style, everyday Tang-inspired clothing, pale ivory, muted sage and russet palette.
+Create exactly THREE isolated asset groups with generous transparent separation:
+LEFT 60%: a full-body mother and her young child, both facing right in three-quarter profile. Mother stands to the LEFT and slightly behind the child, smiling gently downward, modest pale sage long robe with ivory sleeves and muted rose sash, simple black bun without a crown. Child age about six, half her height, ivory top, short muted russet tunic and soft shoes, two little hair buns, gazing curiously to the right. Bodies upright with both pairs of feet fully visible, together on one baseline. Mother's far arm and hand rest gently on the child's far shoulder. Child's far arm hangs naturally. Mother's NEAR arm and child's NEAR arm are each completely ABSENT at the shoulder, with complete torso paint underneath for rigging; no exposed anatomical stumps. No other hands on the body group.
+UPPER RIGHT: detached CHILD'S near arm, ivory sleeve with narrow russet cuff, shoulder socket at left, straight relaxed elbow, open small hand reaching to the right, wrist and fingers clear. Leave wide shoulder overlap.
+LOWER RIGHT: detached MOTHER'S near arm, matching pale sage sleeve and ivory cuff, shoulder socket upper left, elbow gently bent, forearm extending diagonally down-right, palm facing inward with fingers gently curved as if about to support a child's wrist. No child's wrist in this separate asset.
+Composition: wide landscape sheet with three clear separated regions, no overlapping pieces; mother-child body group on left, child arm top right, mother arm bottom right. Each arm separated by at least 8% transparent gutter. Entire objects visible, no cropping. No labels or diagrams.
+Style: delicate handpainted mineral pigment and fine ink outlines, textured paint, soft daylight, refined faces and natural anatomy.
+Constraints: genuine transparent alpha. No ground, shadow, scenery, flowers, flower in hand, extra person, duplicated limbs, words, letters, watermark or bounding boxes.

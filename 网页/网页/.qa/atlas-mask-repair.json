@@ -1,0 +1,262 @@
+[
+  {
+    "layer": "background_2",
+    "occupiedPixels": 41488,
+    "region": [
+      6,
+      270,
+      409,
+      113
+    ]
+  },
+  {
+    "layer": "cow_1",
+    "occupiedPixels": 2427,
+    "region": [
+      6,
+      395,
+      174,
+      94
+    ]
+  },
+  {
+    "layer": "cow_2",
+    "occupiedPixels": 3914,
+    "region": [
+      427,
+      270,
+      236,
+      106
+    ]
+  },
+  {
+    "layer": "cow_3",
+    "occupiedPixels": 3547,
+    "region": [
+      675,
+      270,
+      232,
+      102
+    ]
+  },
+  {
+    "layer": "land_back_1",
+    "occupiedPixels": 19703,
+    "region": [
+      6,
+      604,
+      471,
+      90
+    ]
+  },
+  {
+    "layer": "land_back_2",
+    "occupiedPixels": 16078,
+    "region": [
+      6,
+      706,
+      463,
+      84
+    ]
+  },
+  {
+    "layer": "land_back_3",
+    "occupiedPixels": 23037,
+    "region": [
+      192,
+      395,
+      523,
+      92
+    ]
+  },
+  {
+    "layer": "land_back_4",
+    "occupiedPixels": 10476,
+    "region": [
+      489,
+      604,
+      303,
+      81
+    ]
+  },
+  {
+    "layer": "land_back_5",
+    "occupiedPixels": 15946,
+    "region": [
+      6,
+      886,
+      423,
+      67
+    ]
+  },
+  {
+    "layer": "land_front_1",
+    "occupiedPixels": 9700,
+    "region": [
+      481,
+      706,
+      338,
+      82
+    ]
+  },
+  {
+    "layer": "land_front_2",
+    "occupiedPixels": 3119,
+    "region": [
+      6,
+      965,
+      486,
+      30
+    ]
+  },
+  {
+    "layer": "land_front_3",
+    "occupiedPixels": 13839,
+    "region": [
+      413,
+      6,
+      446,
+      170
+    ]
+  },
+  {
+    "layer": "land_front_4",
+    "occupiedPixels": 3884,
+    "region": [
+      441,
+      886,
+      266,
+      60
+    ]
+  },
+  {
+    "layer": "land_front_5",
+    "occupiedPixels": 11564,
+    "region": [
+      6,
+      501,
+      463,
+      91
+    ]
+  },
+  {
+    "layer": "land_front_6",
+    "occupiedPixels": 5142,
+    "region": [
+      6,
+      803,
+      226,
+      71
+    ]
+  },
+  {
+    "layer": "land_front_7",
+    "occupiedPixels": 12171,
+    "region": [
+      481,
+      501,
+      360,
+      74
+    ]
+  },
+  {
+    "layer": "sheep_1",
+    "occupiedPixels": 1233,
+    "region": [
+      719,
+      886,
+      139,
+      60
+    ]
+  },
+  {
+    "layer": "sheep_2",
+    "occupiedPixels": 1554,
+    "region": [
+      413,
+      188,
+      201,
+      41
+    ]
+  },
+  {
+    "layer": "sheep_3",
+    "occupiedPixels": 1996,
+    "region": [
+      727,
+      395,
+      184,
+      73
+    ]
+  },
+  {
+    "layer": "sheep_4",
+    "occupiedPixels": 2133,
+    "region": [
+      244,
+      803,
+      164,
+      70
+    ]
+  },
+  {
+    "layer": "sheep_5",
+    "occupiedPixels": 298,
+    "region": [
+      504,
+      965,
+      108,
+      29
+    ]
+  },
+  {
+    "layer": "sheep_6",
+    "occupiedPixels": 320,
+    "region": [
+      625,
+      965,
+      105,
+      27
+    ]
+  },
+  {
+    "layer": "sheep_7",
+    "occupiedPixels": 81,
+    "region": [
+      742,
+      965,
+      98,
+      16
+    ]
+  },
+  {
+    "layer": "tree_1",
+    "occupiedPixels": 37716,
+    "region": [
+      105,
+      6,
+      296,
+      240
+    ]
+  },
+  {
+    "layer": "viaduc_1",
+    "occupiedPixels": 20079,
+    "region": [
+      420,
+      803,
+      455,
+      68
+    ]
+  },
+  {
+    "layer": "walker_1",
+    "occupiedPixels": 2564,
+    "region": [
+      6,
+      6,
+      87,
+      252
+    ]
+  }
+]
