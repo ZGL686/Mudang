@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-07",
+  "scope": "React and Vite migration; actual UI checks in Codex in-app browser, not physical devices",
+  "environments": [
+    { "mode": "Vite development", "base": "/", "port": 5173 },
+    { "mode": "production preview", "base": "./", "port": 4173, "viewport": "1280x720" },
+    { "mode": "production preview", "base": "/mudang/", "port": 4174, "viewport": "390x844" }
+  ],
+  "passed": [
+    "Both React entries load through HTTP and native links navigate between documents.",
+    "Story query shot=7&at=3 starts paused on shot 7 at 42 seconds.",
+    "Chapter five jump selects shot 13 at 77.01 seconds.",
+    "Reading dialog opens with original narrative and closes back to the player.",
+    "Play advances the time; pause stops playback.",
+    "Native range keyboard End reaches 119 seconds, shot 18 and the end panel; replay returns to the beginning.",
+    "Return link opens six React reading cards; restart uses a new document and starts the retained engine.",
+    "At /mudang/, shot=13&at=3 loads shot 13 at 80 seconds with scene and actors visible.",
+    "390x844 story viewport has clientWidth=scrollWidth=390; reading viewport has clientWidth=scrollWidth=375 including its scrollbar.",
+    "Paper texture, engine script and HTML base resolve under /mudang/.",
+    "Main header remains opacity 1 after engine initialization; loader finishes and navigation is clickable.",
+    "Reduced-motion entry displays the first scene while the playhead remains paused at 0 seconds.",
+    "No captured error or warning logs in the reviewed final navigation and playback flows."
+  ],
+  "knownLimitations": [
+    "Retained main WebGL experience still displays a paper-colored blank scene in the in-app browser, as recorded before this migration; resource/bootstrap checks do not prove graphics acceptance.",
+    "Physical touch devices, audio listening, every frame of artwork, and all target browser/GPU combinations were not accepted by this review.",
+    "Story artReady flags and original artwork/action pending work remain unchanged."
+  ],
+  "evidence": {
+    "method": "Direct browser UI actions, accessibility state, screenshots, read-only DOM state and captured console logs",
+    "source": "source/features/experience and source/features/story",
+    "offlineRenders": "docs/qa/current/story-frames",
+    "assetChecks": "docs/qa/current/original-experience-checks.json"
+  }
+}

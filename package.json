@@ -1,0 +1,35 @@
+{
+  "name": "mudang-peony-scroll",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": "^22.12.0 || >=24.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "lint": "eslint source scripts/qa/check-project.mjs vite.config.js eslint.config.js",
+    "check": "node scripts/qa/check-project.mjs && node scripts/qa/check-timeline.mjs && node scripts/qa/check-experience-content.mjs",
+    "data:timeline": "node --env-file-if-exists=.env.local scripts/run-python.mjs scripts/data/build_timeline.py",
+    "check:art": "node --env-file-if-exists=.env.local scripts/run-python.mjs scripts/qa/check-original-experience.py",
+    "art:engine": "node --env-file-if-exists=.env.local scripts/run-python.mjs scripts/art/apply-peony-js.py",
+    "render:story": "node scripts/qa/render-story-frames.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "@napi-rs/canvas": "^1.0.10",
+    "@vitejs/plugin-react": "6.1.2",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "8.3.3"
+  }
+}

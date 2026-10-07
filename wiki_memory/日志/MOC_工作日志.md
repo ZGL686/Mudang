@@ -3,7 +3,7 @@ type: moc
 status: active
 kind: process
 importance: high
-updated: 2026-10-03
+updated: 2026-10-07
 topic: work-log-index
 source_logs: []
 supersedes: null
@@ -15,6 +15,7 @@ supersedes: null
 
 | 时间 | 类型 | 目标 | 状态 | 主题 | 日志 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-07 | maintenance | - | archived | react-vite-migration | [[日志/2026-10-07-React与Vite架构及目录整改.md|React 与 Vite 架构及目录整改]] |
 | 2026-10-03 | test | 检查第 14 镜中贵妃回眸关键姿态是否连续，并将其纳入可重复查看的离线动作表。 | archived | shot-14-consort-turn-browser-review | [[日志/2026-10-03-第14镜贵妃回眸验收.md|2026-10-03｜第 14 镜贵妃回眸验收]] |
 | 2026-10-03 | feature | 接续第13镜场景层，为四位角色增加独立动作，并调整竖屏人物与旁白布局。 | archived | shot-13-independent-character-poses | [[日志/2026-10-03-第13镜独立人物动作与竖屏构图.md|2026-10-03｜第13镜独立人物动作与竖屏构图]] |
 | 2026-10-03 | feature | 补齐第 13 镜“沉香亭 · 清平新调”缺少的园林背景和人物画面。 | archived | shot-13-pavilion-scene-layers | [[日志/2026-10-03-第13镜沉香亭场景图层.md|2026-10-03｜第 13 镜沉香亭场景图层]] |

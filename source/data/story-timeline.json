@@ -1,0 +1,794 @@
+{
+  "title": "牡丹真国色",
+  "duration": 119,
+  "sourceDurationNote": "文档概要约115秒；18镜逐镜时长之和119秒，以逐镜标注为准。",
+  "sourceFiles": [
+    "materials/documents/牡丹真国色_全六场分镜_文字版(1).docx",
+    "materials/documents/主线内容(2)(1).docx",
+    "materials/local/生成图.zip"
+  ],
+  "chapters": [
+    "冠绝群芳",
+    "神都花事",
+    "花出宫墙",
+    "吉祥入画",
+    "人花盛衰",
+    "花开不败"
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "chapter": 0,
+      "chapterTitle": "冠绝群芳",
+      "start": 0,
+      "end": 6,
+      "duration": 6,
+      "label": "水墨长卷 · 徐徐展开",
+      "elements": "· 素白宣纸底纹，边角浅金色云纹· 水墨山峦由淡墨晕染渐次浮现· 朱红标题书法自左向右挥毫而成· 零星牡丹花瓣慢镜头飘落",
+      "transitionSource": "黑场淡入：金色云纹先亮，画卷随之展开，确立全片基调。",
+      "cameraSource": "长卷自中心向两侧缓缓铺开，镜头缓慢横移；标题笔触随音效逐字显现。",
+      "reference": "materials/images/story-originals/a-07.png",
+      "motion": "scroll-unroll",
+      "transition": "unroll",
+      "camera": [
+        [
+          0,
+          0,
+          1.06
+        ],
+        [
+          0.025,
+          0,
+          1.06
+        ]
+      ],
+      "quote": {
+        "paragraph": 0,
+        "start": 0,
+        "end": 16,
+        "text": "唯有牡丹真国色，花开时节动京城。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": true,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 2,
+      "chapter": 0,
+      "chapterTitle": "冠绝群芳",
+      "start": 6,
+      "end": 11,
+      "duration": 5,
+      "label": "红牡丹 · 露珠滑落",
+      "elements": "· 盛放红牡丹占据画面中心· 花瓣层叠如冕，金箔点缀花蕊· 背景虚化为黛绿叶片与淡墨枝干· 一滴露珠沿花瓣滑落",
+      "transitionSource": "水墨晕化：上一镜远景湿墨渗开，晕染出花心，由面到点收束视线。",
+      "cameraSource": "微距缓推，焦点锁定花蕊；露珠滑落瞬间半格定格，折射出一瞬宫阙倒影。",
+      "reference": "materials/images/story-originals/a-04.png",
+      "motion": "dew",
+      "transition": "ink",
+      "camera": [
+        [
+          -0.1,
+          0.03,
+          1.2
+        ],
+        [
+          -0.1,
+          0.03,
+          1.6
+        ]
+      ],
+      "quote": {
+        "paragraph": 0,
+        "start": 70,
+        "end": 93,
+        "text": "花朵硕大、层叠如冕，形态上极具统领群芳的威仪；"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": true,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 3,
+      "chapter": 0,
+      "chapterTitle": "冠绝群芳",
+      "start": 11,
+      "end": 17,
+      "duration": 6,
+      "label": "汉服仕女 · 花气成涡",
+      "elements": "· 汉服仕女伫立牡丹花丛，衣袂与花瓣同色· 远山淡墨如烟，宫阙若隐若现· 花瓣绕身形成旋涡状气流· 暖金色侧逆光",
+      "transitionSource": "光影转场：上一镜露珠折射的暖光扩散，暖金光晕扫过接入人物。",
+      "cameraSource": "环绕镜头绕仕女缓转半周；光线由暗转暖，衣袂与花瓣同频飘动。",
+      "reference": "materials/images/story-originals/a-03.png",
+      "motion": "petal-vortex",
+      "transition": "gold",
+      "camera": [
+        [
+          -0.06,
+          0,
+          1.12
+        ],
+        [
+          0.06,
+          -0.015,
+          1.17
+        ]
+      ],
+      "quote": {
+        "paragraph": 0,
+        "start": 132,
+        "end": 163,
+        "text": "牡丹，不仅仅是一株植物，它是盛唐的灵魂，是王者气象的具象化身。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": true,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "chapterTitle": "神都花事",
+      "start": 17,
+      "end": 24,
+      "duration": 7,
+      "label": "西苑移花 · 女皇俯视",
+      "elements": "· 神都西苑御花园，牡丹移植入精致花台· 宫女持壶浇水，宦官搬运花盆· 武则天剪影立于亭台俯视花园· 背景宫阙庄严",
+      "transitionSource": "卷轴叠化：上一镜牡丹特写收进古地图卷轴，展开后落入西苑御园。",
+      "cameraSource": "低角度仰推向花台，再随女皇视线缓缓下摇扫过全园；宫人动作缓慢优雅。",
+      "reference": "materials/images/story-originals/a-06.png",
+      "motion": "watering",
+      "transition": "map",
+      "camera": [
+        [
+          0,
+          0.055,
+          1.16
+        ],
+        [
+          0,
+          -0.04,
+          1.09
+        ]
+      ],
+      "quote": {
+        "paragraph": 4,
+        "start": 68,
+        "end": 105,
+        "text": "武则天命人将西河寺院的优良牡丹引种至洛阳西苑，牡丹就此从山野进入皇家园林。"
+      },
+      "context": "史实记载",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "chapterTitle": "神都花事",
+      "start": 24,
+      "end": 31,
+      "duration": 7,
+      "label": "百花奉旨 · 牡丹拒开",
+      "elements": "· 左侧：百花寒夜应旨绽放· 右侧：牡丹枝干挺立，花苞紧闭· 中间金色闪电裂痕分隔· 武则天怒目剪影压在裂痕之上",
+      "transitionSource": "裂痕划开：一道金色闪电自上而下劈开上一镜画面，切出左右分屏。",
+      "cameraSource": "分屏对切：左侧快放百花齐开，右侧牡丹静如雕塑；裂痕闪烁，女皇剪影压迫性逼近。",
+      "reference": "materials/images/story-originals/a-10.png",
+      "motion": "winter-split",
+      "transition": "crack",
+      "camera": [
+        [
+          0,
+          0,
+          1.02
+        ],
+        [
+          0,
+          0,
+          1.1
+        ]
+      ],
+      "quote": {
+        "paragraph": 5,
+        "start": 78,
+        "end": 126,
+        "text": "牡丹拒不奉诏、被贬邙山、烈火之后生出 “洛阳红” 的故事，起源于北宋，成熟于明清，属于后世虚构。"
+      },
+      "context": "民间传说",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "chapterTitle": "神都花事",
+      "start": 31,
+      "end": 39,
+      "duration": 8,
+      "label": "烈火焦骨 · 洛阳红重生",
+      "elements": "· 烈焰自画面底部腾起，吞噬牡丹枝干· 焦黑枝桠在火光中扭曲· 灰烬中忽然透出一抹朱红· 满枝焦骨牡丹盛放——洛阳红",
+      "transitionSource": "烈焰吞噬：上一镜分屏被火焰自下而上吞没，短暂黑场后白闪重生。",
+      "cameraSource": "火光中缓推特写；色调由橙红转暗再透朱红；焦骨牡丹以延时摄影方式绽放。",
+      "reference": "materials/images/story-originals/a-11.png",
+      "motion": "fire-rebirth",
+      "transition": "flame",
+      "camera": [
+        [
+          0,
+          0.05,
+          1.08
+        ],
+        [
+          0,
+          -0.02,
+          1.25
+        ]
+      ],
+      "quote": {
+        "paragraph": 6,
+        "start": 138,
+        "end": 156,
+        "text": "民间传说又赋予它坚韧不屈的精神内核。"
+      },
+      "context": "民间传说",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 7,
+      "chapter": 2,
+      "chapterTitle": "花出宫墙",
+      "start": 39,
+      "end": 45,
+      "duration": 6,
+      "label": "曲水园林 · 君臣赏花",
+      "elements": "· 中宗、睿宗时期宫廷园林· 牡丹丛植于曲水岸边，亭榭错落· 君臣席地而坐，举杯赏花· 远处宫女持团扇伫立",
+      "transitionSource": "余烬转春：上一镜焦骨红的暖色缓缓晕开，化为曲水流觞的春日园林。",
+      "cameraSource": "镜头沿曲水横移过园林；君臣举杯动作缓慢；水面倒映牡丹。",
+      "reference": "materials/images/story-originals/b-05.png",
+      "motion": "water-banquet",
+      "transition": "ember",
+      "camera": [
+        [
+          -0.045,
+          0,
+          1.12
+        ],
+        [
+          0.045,
+          0,
+          1.12
+        ]
+      ],
+      "quote": {
+        "paragraph": 13,
+        "start": 18,
+        "end": 50,
+        "text": "中宗喜爱春日游园，每到牡丹盛放，就在宫苑设宴，召集百官游赏赋诗。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 8,
+      "chapter": 2,
+      "chapterTitle": "花出宫墙",
+      "start": 45,
+      "end": 52,
+      "duration": 7,
+      "label": "宫门光带 · 审美外溢",
+      "elements": "· 宫门缓缓开启，朱红光带向外延伸· 光带穿过街市，进入贵族私宅别院· 私园中牡丹渐次绽放· 呈现自上而下的审美扩散",
+      "transitionSource": "光带引导：上一镜水面倒影中透出宫门红光，镜头顺光带划像穿门。",
+      "cameraSource": "纵深推进：镜头随光带穿门入市，光带如河流蔓延，私园牡丹逐一点亮。",
+      "reference": "materials/images/story-originals/b-04.png",
+      "motion": "gate-light",
+      "transition": "light-path",
+      "camera": [
+        [
+          0,
+          0,
+          1.0
+        ],
+        [
+          -0.12,
+          0.02,
+          1.48
+        ]
+      ],
+      "quote": {
+        "paragraph": 12,
+        "start": 58,
+        "end": 98,
+        "text": "长安、洛阳的贵族官僚纷纷效仿皇家，在私宅引种牡丹，牡丹的观赏场景拓展到士族圈层。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 9,
+      "chapter": 2,
+      "chapterTitle": "花出宫墙",
+      "start": 52,
+      "end": 59,
+      "duration": 7,
+      "label": "城郊踏青 · 百姓赏花",
+      "elements": "· 城郊寺观，百姓踏青赏花· 男女老少穿行牡丹花径· 孩童伸手触花，被母亲含笑拦下· 远山如黛，纸鸢高飞",
+      "transitionSource": "花瓣划转：一片花瓣飘过镜头，划开街市与郊野两个时空。",
+      "cameraSource": "长镜头跟拍人群缓行，再切孩童仰拍视角；纸鸢随风摆动，定格童趣瞬间。",
+      "reference": "materials/images/story-originals/b-02.png",
+      "motion": "spring-walk",
+      "transition": "petal",
+      "camera": [
+        [
+          0.04,
+          0,
+          1.13
+        ],
+        [
+          -0.04,
+          0.025,
+          1.19
+        ]
+      ],
+      "quote": {
+        "paragraph": 14,
+        "start": 41,
+        "end": 54,
+        "text": "普通百姓踏青时也能够观赏。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": true,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 10,
+      "chapter": 3,
+      "chapterTitle": "吉祥入画",
+      "start": 59,
+      "end": 65,
+      "duration": 6,
+      "label": "凤穿牡丹 · 嫁衣绣纹",
+      "elements": "· 红绸嫁衣上凤穿牡丹金线纹样· 凤凰穿梭于盛放牡丹花丛之间· 红烛与帷幔虚化背景· 金线随光线微微闪烁",
+      "transitionSource": "红调叠化：上一镜踏青的春绿渐暖，喜庆红绸自画面边缘晕入。",
+      "cameraSource": "特写缓摇：沿嫁衣纹样游走，凤凰与牡丹先后进入焦点，金线流光收束。",
+      "reference": "materials/images/story-originals/c-03.png",
+      "motion": "silk",
+      "transition": "red-silk",
+      "camera": [
+        [
+          -0.035,
+          0.02,
+          1.24
+        ],
+        [
+          0.035,
+          -0.02,
+          1.35
+        ]
+      ],
+      "quote": {
+        "paragraph": 19,
+        "start": 62,
+        "end": 103,
+        "text": "凤凰代表祥瑞良缘，牡丹象征富贵安稳，二者结合寄托人们期盼婚姻和美、家业兴旺的心愿。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 11,
+      "chapter": 3,
+      "chapterTitle": "吉祥入画",
+      "start": 65,
+      "end": 71,
+      "duration": 6,
+      "label": "岁末年画 · 灯彩祈福",
+      "elements": "· 窗棂上牡丹纹样年画· 屋檐挂红灯笼，白雪点缀· 孩童门前点灯，暖黄烛光· 朴素端庄的节庆气氛",
+      "transitionSource": "烛光转场：烛火光晕放大至全屏，晕开为雪夜街景。",
+      "cameraSource": "先推近窗棂年画细节，再缓拉至门前全景；烛光点亮瞬间轻微过曝。",
+      "reference": "materials/images/story-originals/c-05.png",
+      "motion": "lantern",
+      "transition": "candle",
+      "camera": [
+        [
+          0,
+          0,
+          1.35
+        ],
+        [
+          0,
+          0,
+          1.02
+        ]
+      ],
+      "quote": {
+        "paragraph": 20,
+        "start": 20,
+        "end": 50,
+        "text": "岁末迎新、春日祈福，百姓会把牡丹绘制在年画、窗棂、灯彩之上。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": true,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 12,
+      "chapter": 3,
+      "chapterTitle": "吉祥入画",
+      "start": 71,
+      "end": 77,
+      "duration": 6,
+      "label": "器物纹样 · 安泰祥和",
+      "elements": "· 铜镜、瓷盏、金钗镌刻牡丹纹样· 木箱柜雕花陈设于木案· 背景虚化出宫廷壁画一角· 整体氛围安泰祥和",
+      "transitionSource": "虚化聚焦：上一镜烛光虚化成光斑，重新聚焦到案上器物。",
+      "cameraSource": "浅景深推移：焦点依次掠过铜镜、瓷盏、金钗，壁画在景深处缓缓亮起。",
+      "reference": "materials/images/story-originals/c-07.png",
+      "motion": "artifacts",
+      "transition": "focus",
+      "camera": [
+        [
+          -0.035,
+          0,
+          1.18
+        ],
+        [
+          0.05,
+          0,
+          1.25
+        ]
+      ],
+      "quote": {
+        "paragraph": 21,
+        "start": 0,
+        "end": 32,
+        "text": "铜镜、瓷器、首饰、家具雕花等日常器物上，随处可见简约的牡丹纹样。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 13,
+      "chapter": 4,
+      "chapterTitle": "人花盛衰",
+      "start": 77,
+      "end": 85,
+      "duration": 8,
+      "label": "沉香亭 · 清平新调",
+      "elements": "· 沉香亭畔牡丹灼灼盛放· 玄宗与贵妃凭栏赏花· 李白于花间执笔吟咏新词· 乐师在旁奏乐",
+      "transitionSource": "金光叠化：上一镜器物金纹放大成金色光斑，叠化为亭前牡丹。",
+      "cameraSource": "环绕推进：镜头穿过花枝推向沉香亭，乐声渐起，落幅于贵妃与牡丹同框。",
+      "reference": "materials/images/story-originals/d-03.png",
+      "motion": "pavilion",
+      "transition": "gold",
+      "camera": [
+        [
+          -0.045,
+          0,
+          1.12
+        ],
+        [
+          0.035,
+          -0.02,
+          1.27
+        ]
+      ],
+      "quote": {
+        "paragraph": 28,
+        "start": 70,
+        "end": 85,
+        "text": "云想衣裳花想容，春风拂槛露华浓"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": true,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 14,
+      "chapter": 4,
+      "chapterTitle": "人花盛衰",
+      "start": 85,
+      "end": 91,
+      "duration": 6,
+      "label": "贵妃簪花 · 人花合一",
+      "elements": "· 云鬓边簪一朵盛放红牡丹· 回眸浅笑，人面与牡丹相映· 华服金饰流光· 宫廷灯影虚化背景",
+      "transitionSource": "摇镜转切：自沉香亭畔牡丹摇起，顺势切入鬓边簪花特写。",
+      "cameraSource": "微距缓推至侧脸与簪花；贵妃回眸瞬间轻微升格，花与笑靥同焦点。",
+      "reference": "materials/images/story-originals/d-02.png",
+      "motion": "hair-flower",
+      "transition": "pan",
+      "camera": [
+        [
+          0,
+          0,
+          1.3
+        ],
+        [
+          -0.02,
+          0.02,
+          1.55
+        ]
+      ],
+      "quote": {
+        "paragraph": 27,
+        "start": 44,
+        "end": 72,
+        "text": "宫中常以牡丹比拟贵妃容貌，“花王配美人” 成为经典审美，"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 15,
+      "chapter": 4,
+      "chapterTitle": "人花盛衰",
+      "start": 91,
+      "end": 98,
+      "duration": 7,
+      "label": "马嵬坡 · 繁华落幕",
+      "elements": "· 风雨如晦的马嵬坡驿站· 兵马喧嚣的层叠剪影· 红牡丹花瓣飘零散落于地· 冷灰蓝色调中仅存一抹朱红",
+      "transitionSource": "骤变转场：乐声戛然而止，一道冷色闪光切入风雨，与上一镜暖调对撞。",
+      "cameraSource": "急推至大全景后骤停；风雨声中镜头缓缓下摇，落在泥泞中飘零的花瓣。",
+      "reference": "materials/images/story-originals/d-05.png",
+      "motion": "storm",
+      "transition": "flash",
+      "camera": [
+        [
+          0,
+          0,
+          1.28
+        ],
+        [
+          0,
+          -0.065,
+          1.05
+        ]
+      ],
+      "quote": {
+        "paragraph": 30,
+        "start": 0,
+        "end": 38,
+        "text": "繁华终会落幕，人与花的命运都和国运紧紧相连。马嵬坡事变，美人逝去，盛世崩塌。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 16,
+      "chapter": 5,
+      "chapterTitle": "花开不败",
+      "start": 98,
+      "end": 104,
+      "duration": 6,
+      "label": "晚唐残垣 · 花开依旧",
+      "elements": "· 晚唐文人立于残破宫苑断壁前· 依然灼灼盛开的红牡丹· 落花飘过断壁残垣· 暮色苍茫",
+      "transitionSource": "慢镜叠化：马嵬坡飘零的花瓣延续为晚唐落花，时光在花瓣中流转。",
+      "cameraSource": "缓推文人背影，越过断壁落在牡丹上；人物剪影与花形成对角构图。",
+      "reference": "materials/images/story-originals/d-08.png",
+      "motion": "ruins",
+      "transition": "petal",
+      "camera": [
+        [
+          -0.03,
+          0,
+          1.1
+        ],
+        [
+          0.02,
+          0,
+          1.26
+        ]
+      ],
+      "quote": {
+        "paragraph": 31,
+        "start": 67,
+        "end": 97,
+        "text": "晚唐文人借牡丹咏叹国运衰败，为牡丹增添了繁华易逝的悲情底色。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 17,
+      "chapter": 5,
+      "chapterTitle": "花开不败",
+      "start": 104,
+      "end": 111,
+      "duration": 7,
+      "label": "洛阳花海 · 古今交叠",
+      "elements": "· 洛阳牡丹花海红浪翻滚· 应天门剪影浮现于晨雾· 花瓣扬起化作宫阙幻影· 画面渐变为金色光晕",
+      "transitionSource": "晨光渐亮：暮色中透出晨曦，冷灰调回暖，由残垣切至今日花海。",
+      "cameraSource": "航拍式上升掠过花海，晨光自云隙洒下；花瓣升腾与宫阙幻影交叠。",
+      "reference": "materials/images/story-originals/d-09.png",
+      "motion": "sunrise",
+      "transition": "dawn",
+      "camera": [
+        [
+          0,
+          -0.05,
+          1.32
+        ],
+        [
+          0,
+          0.02,
+          1.05
+        ]
+      ],
+      "quote": {
+        "paragraph": 7,
+        "start": 66,
+        "end": 112,
+        "text": "如今洛阳牡丹年年盛开，兼具华贵与傲骨，既是武周盛世的缩影，也是历史与文学交融而成的文化印记。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    },
+    {
+      "id": 18,
+      "chapter": 5,
+      "chapterTitle": "花开不败",
+      "start": 111,
+      "end": 119,
+      "duration": 8,
+      "label": "花开不败 · 魂铸王冠",
+      "elements": "· 花瓣升空汇聚成皇冠轮廓· 漫山牡丹花海红粉相间· 宫阙与山水融为一体· 四角淡出金色祥云",
+      "transitionSource": "收束蒙太奇：花海中一片花瓣飞向镜头，汇聚成冠，全片意象在此定格。",
+      "cameraSource": "航拍继续上升至顶点；花瓣皇冠在空中缓缓旋转，金光定格后淡出黑场。",
+      "reference": "materials/images/story-originals/a-15.png",
+      "motion": "crown",
+      "transition": "crown",
+      "camera": [
+        [
+          0,
+          -0.02,
+          1.15
+        ],
+        [
+          0,
+          0.03,
+          1.0
+        ]
+      ],
+      "quote": {
+        "paragraph": 32,
+        "start": 77,
+        "end": 113,
+        "text": "人与花双向成就，让牡丹既有富贵风骨，又承载千古兴衰的厚重诗意，代代流传。"
+      },
+      "context": "",
+      "artReady": false,
+      "layersAvailable": false,
+      "acceptance": {
+        "timing": "source-exact",
+        "layerMotion": "needs-runtime-review",
+        "storyboardFidelity": "needs-visual-review"
+      }
+    }
+  ],
+  "narrative": [
+    "唯有牡丹真国色，花开时节动京城。在中国浩如烟海的花卉谱系中，没有任何一种花能像牡丹这般，稳坐“花中之王”的宝座。它之所以能独占鳌头，不仅因其花朵硕大、层叠如冕，形态上极具统领群芳的威仪；更因其盛开于晚春，以压轴之姿终结百花争艳，仿佛天生便具有一种从容不迫的掌控力。牡丹，不仅仅是一株植物，它是盛唐的灵魂，是王者气象的具象化身。当我们展开这幅牡丹画卷，便能在历史的跌宕起伏中，读懂这份不可撼动的尊荣。",
+    "一．",
+    "世人说起牡丹，总会联想到武则天贬牡丹的传说，这个故事赋予牡丹不畏强权的傲骨。但拨开文学演绎，真实历史中的武则天并非牡丹的贬谪者，而是推动牡丹声名鹊起的关键人物，人与花彼此成就，让山野野花蜕变成国色天香，塑造出大唐雍容磅礴的审美。",
+    "武则天掌权以前，牡丹算不上名贵花卉，大多生长在深山寺院与乡野之间。纵然花繁色艳，但地位远不及梅、兰、菊。隋朝虽在洛阳西苑少量栽植牡丹，也只是小众花木，并未流行。直到武则天定都洛阳，定为神都，牡丹的命运才迎来转折。",
+    "武周国力强盛，社会风气开放，皇家审美偏爱盛大饱满的风物，牡丹硕大华贵的花容，正好契合大一统王朝的气象。依据中唐舒元舆《牡丹赋・序》记载，武则天命人将西河寺院的优良牡丹引种至洛阳西苑，牡丹就此从山野进入皇家园林。北宋欧阳修《洛阳牡丹记》也明确记载 “自唐则天以后，洛阳牡丹始盛”，印证了武则天对牡丹兴盛的重要作用。",
+    "武则天《腊日宣诏幸上苑》一诗常被后世和牡丹抗旨的故事绑定，实际上这首御制诗是政治造势。寒冬下诏百花齐开，是借异象宣扬皇权天授，稳固朝堂，诗中并没有提到牡丹。牡丹拒不奉诏、被贬邙山、烈火之后生出 “洛阳红” 的故事，起源于北宋，成熟于明清，属于后世虚构。",
+    "这则民间故事暗含传统男权视角对女帝的解读，把武则天塑造成霸道的掌权者，同时赋予牡丹不屈的人格，是文人借花木抒怀言志。史实与传说共同构建牡丹文化：真实历史上，武则天扩建苑囿、推广牡丹种植，使牡丹流入士族宅院，为盛唐 “花开时节动京城” 打下根基；武周时代赋予牡丹华贵的文化标签，民间传说又赋予它坚韧不屈的精神内核。",
+    "千百年过去，女皇的功过归于史册，她与牡丹的故事代代相传。武周时代让牡丹摆脱平凡，登上花中高位；牡丹的传奇，也为武则天的一生增添诗意。如今洛阳牡丹年年盛开，兼具华贵与傲骨，既是武周盛世的缩影，也是历史与文学交融而成的文化印记。",
+    "",
+    "",
+    "二．",
+    "武周结束、开元盛世尚未到来，中宗、睿宗执政的数十年，是牡丹从宫廷专属御花向全社会普及的关键转折。此前牡丹被禁锢在皇家苑囿，带有浓厚礼制属性，受众十分有限。李唐复辟之后社会氛围趋于松弛，牡丹摆脱皇权的束缚走出宫墙，催生出初唐晚期的春日赏花风尚，为盛唐牡丹风靡全国筑牢基础。",
+    "初唐前期，牡丹的栽种观赏被皇室垄断，品种稀少，民间很难见到，没有形成大众审美潮流。神龙政变后时局稳定，宫廷礼制放宽，长安、洛阳的贵族官僚纷纷效仿皇家，在私宅引种牡丹，牡丹的观赏场景拓展到士族圈层。赏花也从严肃的政治礼仪转变为朝野流行的春日休闲，牡丹正式跻身主流名花。",
+    "社会风气变化让宫廷赏牡丹变得生活化。中宗喜爱春日游园，每到牡丹盛放，就在宫苑设宴，召集百官游赏赋诗。这类宴游不拘泥朝堂礼法，君臣观景饮酒、即兴吟咏，是当时重要的宫廷雅事。这一阶段赏花风格清雅简约，只做游园赋诗，牡丹饼这类花食风俗还未出现，契合时代简约的审美。",
+    "宫廷士族的热潮带动民间赏花萌芽，审美自上而下扩散。贵族私园与城郊寺观广泛种植牡丹，普通百姓踏青时也能够观赏。不过此时还没有开元天宝年间举国狂热的景象，不存在重金猎奇攀比，民间栽种多是普通品种，百姓赏花只为消遣春光，牡丹的上层专属壁垒被打破。",
+    "这个时期还没有出现盛唐的斗花、簪花竞技，民间赏花以踏青静赏为主，朴素淡然，没有功利角逐。文人笔下咏牡丹的作品也寥寥无几，初唐咏物诗多写梅兰垂柳，牡丹还没有成为寄情的载体。",
+    "数十年的普及浸润积累了充足的大众审美基础，为开元时期咏牡丹诗歌盛行、花间雅集兴起做好铺垫。中宗睿宗时代承前启后，牡丹完成身份蜕变，从礼制束缚下的御花变为朝野共赏的名花。在宫廷宴游、士族栽种、民间观览中沉淀审美底蕴，凝练雍容温润的气质，静待盛唐的盛放。",
+    "三．",
+    "在全民游园斗花的风尚盛行之前，牡丹已经从普通园林花木演变为深入人心的吉祥符号。不同于后期热闹的赏花竞技，此时牡丹大量出现在民俗生活与器物纹样之中。饱满端正的花型，被赋予富足、美满、安泰的寓意。上至宫廷壁画陈设，下到民间嫁衣年画，牡丹意象广泛传播，串联起家国祈愿与百姓烟火。",
+    "婚嫁民俗之中，牡丹是核心吉祥纹饰，大量用于嫁衣、配饰、帷幔织物。“凤穿牡丹” 是最经典的纹样，凤凰穿梭于牡丹花丛，构图华贵。凤凰代表祥瑞良缘，牡丹象征富贵安稳，二者结合寄托人们期盼婚姻和美、家业兴旺的心愿。纹样线条端庄温润，士族与平民都广泛使用，是婚嫁礼仪不可或缺的符号。",
+    "除婚嫁之外，牡丹也是岁时年节的重要意象。岁末迎新、春日祈福，百姓会把牡丹绘制在年画、窗棂、灯彩之上。纹饰朴素端庄，借繁花盛放祈愿人丁兴旺、家运昌隆。牡丹花开圆满的特质，契合大众心中岁岁圆满的美好向往。",
+    "铜镜、瓷器、首饰、家具雕花等日常器物上，随处可见简约的牡丹纹样。除富贵之外，时人认为牡丹象征居家安稳、福运绵长。同时牡丹承载家国层面的寓意，宫廷壁画、殿宇、礼器多用牡丹纹样，借繁花隐喻山河安定、民生富庶，成为太平盛世的象征。安稳的世道，让世人偏爱繁盛端正的审美，牡丹蓬勃盛放的形态恰好呼应时代风貌。",
+    "牡丹还生成独特的人格意象，不再只供观赏。世人见牡丹盛开饱满不争，凋零从容内敛，将其定义为 “端庄有德、富贵不骄” 的品格。士人把这一意象用于书画厅堂，以此勉励自我修身自持。当时社会并不追逐珍稀花种，也没有斗花竞技，人们将牡丹的寓意融入节庆、礼仪、器物与人文审美，形成全民认同的吉祥文化体系。",
+    "经过沉静的积淀，牡丹跳出小众花木的定位，构建完整民俗体系。它既承载普通人家庭美满、生活富足的朴素愿望，也寄托国泰民安的家国期许。双重寓意交融，沉淀雍容端正祥和的文化气质，为日后成为国色祥瑞打下深厚的民俗根基。",
+    "",
+    "四．",
+    "牡丹能够成为家喻户晓的国色名花，源于人与时代的互相成就。长久的民俗积淀让牡丹扎根民间，却尚未迎来审美顶峰。杨玉环的出现，将牡丹、美人与盛世融为一体，形成 “人花合一” 的文化意象，彻底奠定牡丹华贵倾城的地位。",
+    "杨玉环是与牡丹羁绊最深的绝代佳人。牡丹饱满雍容的姿态，和贵妃丰腴温婉大气的气韵高度契合。宫中常以牡丹比拟贵妃容貌，“花王配美人” 成为经典审美，牡丹也从普通花木，变为映衬绝代风华的意象。",
+    "沉香亭赏花题诗的典故，将这份人花羁绊推向顶点。春日牡丹盛开，唐玄宗携杨贵妃游园，觉得旧曲难以匹配名花美人，便召李白现场填词。《清平调》中 “云想衣裳花想容，春风拂槛露华浓”，把牡丹的娇艳和贵妃的容颜融为一体，花即是人，人即是花，牡丹就此和绝代风华、人间良缘深度绑定，文化内涵更为丰厚。",
+    "贵妃的喜好推动牡丹风尚走向鼎盛。盛世民生富庶，社会审美崇尚雍容盛大，牡丹层层盛放的花姿契合时代气质。宫廷上下纷纷效仿，殿宇、陈设、服饰妆奁大量使用繁复华丽的牡丹纹样，取代往日简约风格，成为上层社会的审美标志。",
+    "繁华终会落幕，人与花的命运都和国运紧紧相连。马嵬坡事变，美人逝去，盛世崩塌。盛大的牡丹游宴渐渐冷却，斗花宴游的风气消散，华丽的牡丹纹饰日渐黯淡，昔日盛景只留后人追忆。",
+    "世道动荡改写了牡丹的文化内涵。花朵依旧盛放，寓意却已然改变。太平之时，它象征富贵良缘、国泰民安；乱世之中，繁花反衬人世无常、盛景难留。晚唐文人借牡丹咏叹国运衰败，为牡丹增添了繁华易逝的悲情底色。",
+    "千百年间，牡丹的意象伴随美人浮沉、王朝起落。盛世则花开倾城，乱世则繁花载满怅惘，见证兴亡。从盛世祥瑞到寄托故国追忆的符号，牡丹的气质变化复刻了王朝的起落。人与花双向成就，让牡丹既有富贵风骨，又承载千古兴衰的厚重诗意，代代流传。",
+    ""
+  ]
+}
