@@ -9,8 +9,6 @@
 #end-note{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;background:#27201a70;color:#fff7e4;pointer-events:none}#end-note h2{font-size:clamp(50px,6vw,100px);font-weight:400;letter-spacing:.22em;margin:0}#end-note p{letter-spacing:.3em}#end-note button{pointer-events:auto;border:1px solid #e0c496;margin-top:20px;padding:12px 28px;background:#342c1f55}
 dialog{width:min(850px,94vw);height:86vh;max-height:86vh;border:1px solid #bfad8e;background:#f6efdf;color:var(--ink);box-shadow:0 25px 100px #0005;padding:0;overscroll-behavior:contain}dialog::backdrop{background:#29231985;backdrop-filter:blur(7px)}#close-reading{position:sticky;top:0;z-index:2;background:#f6efdf;width:100%;text-align:right;padding:20px 28px;border-bottom:1px solid #cbbb9d66}.reading-inner{padding:20px 8% 70px}.reading-inner h2{font-size:44px;font-weight:400;color:var(--red);letter-spacing:.15em}.reading-inner p{font-size:18px;line-height:2.1;text-align:justify}.reading-inner h3{margin-top:45px;color:var(--red)}
 @media(pointer:coarse){#cursor{display:none}}@media(max-width:700px){.masthead{top:20px;left:6vw;right:6vw}.wordmark{font-size:19px}.chapter-mark{font-size:11px;gap:10px;padding:8px}.opening{left:9vw;top:24vh;max-width:80vw}.opening h1{font-size:72px}.opening-line{font-size:15px}#narration{max-width:86vw;left:6vw;bottom:20vh;background:linear-gradient(90deg,#f5eddfd9,#f5eddf6b,transparent);padding:15px}#quote{font-size:23px;line-height:1.8}.controls{bottom:22px;left:4vw;right:4vw;gap:10px;padding:14px 10px}.total-time{display:none!important}.chapter-nav{right:6vw;top:auto;bottom:13vh;flex-direction:row;gap:22px}#shot-label{font-size:10px}.reading-inner p{font-size:17px}}
-.main-entry-link{position:absolute;top:48px;right:0;pointer-events:auto;padding:7px 11px;background:#f5ecdcaa;color:var(--ink);font-size:11px;letter-spacing:.08em;text-decoration:none;backdrop-filter:blur(8px)}.main-entry-link:hover,.main-entry-link:focus-visible{background:#843b32;color:#fff}.main-entry-link:focus-visible{outline:2px solid #843b32;outline-offset:2px}
-@media(max-width:700px){.main-entry-link{top:44px;padding:6px 9px;font-size:10px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}#cursor{display:none}}
 #experience[data-shot="13"] #narration{top:19vh;bottom:auto;left:4.5vw;max-width:25vw;padding:16px 20px}
 #experience[data-shot="13"] #quote{font-size:clamp(20px,1.9vw,28px);line-height:1.75}
@@ -24,3 +22,18 @@ dialog{width:min(850px,94vw);height:86vh;max-height:86vh;border:1px solid #bfad8
 @media(max-aspect-ratio:11/10){#experience[data-shot="9"] #narration{left:6vw;top:auto;bottom:16vh;max-width:86vw;padding:12px 15px}#experience[data-shot="9"] #quote{font-size:20px;line-height:1.6;margin:8px 0}}
 @media(max-aspect-ratio:11/10){#experience[data-shot="9"][data-view="low"] #narration{top:14vh;bottom:auto}}
 .runtime-error{position:absolute;left:6vw;right:6vw;top:14vh;z-index:5;padding:14px 18px;background:#f6efdfed;color:#843b34;font:14px/1.6 sans-serif;border:1px solid #bfad8e}
+@media(max-height:600px) and (min-aspect-ratio:11/10){
+  .masthead{top:16px}
+  .opening{top:20vh;max-width:75vw}
+  .opening .overline{margin:8px 0}
+  .opening h1{font-size:clamp(44px,10vh,64px);margin:12px 0;line-height:1.1}
+  .opening h1 br{display:none}
+  .opening h1 span{margin-left:.3em}
+  .opening-line{font-size:14px;margin:10px 0}
+  .opening button{margin-top:8px;padding:10px 30px}
+  .hint{margin-top:12px}
+  #narration{bottom:90px;padding:10px 15px}
+  #quote{font-size:18px;line-height:1.5;margin:8px 0}
+  .controls{bottom:12px}
+  .chapter-nav{top:30%;gap:12px}
+}

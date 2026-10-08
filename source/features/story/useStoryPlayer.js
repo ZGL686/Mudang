@@ -224,7 +224,7 @@ export function useStoryPlayer() {
   }, [releasePointer]);
 
   useEffect(() => {
-    const audio = new Audio(assetUrl('assets/experience/xp/sounds/loop-main.mp3'));
+    const audio = new Audio(assetUrl('assets/story/audio/ambient.mp3'));
     audio.loop = true;
     audio.preload = 'none';
     audio.volume = 0.22;
@@ -323,8 +323,10 @@ export function useStoryPlayer() {
     const keydown = (event) => {
       const target = document.activeElement;
       if (!runtime.current.ready || runtime.current.reading || !runtime.current.started || target?.isContentEditable
-        || ['INPUT', 'BUTTON', 'TEXTAREA', 'SELECT'].includes(target?.tagName)) return;
+        || ['INPUT', 'TEXTAREA', 'SELECT'].includes(target?.tagName)) return;
       if (event.code === 'Space') {
+        // Let focused buttons keep their native Space activation.
+        if (target?.tagName === 'BUTTON') return;
         event.preventDefault();
         togglePlaying();
       } else if (event.code === 'ArrowRight' || event.code === 'ArrowLeft') {

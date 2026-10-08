@@ -1,16 +1,19 @@
 ---
 type: decision
-status: active
+status: superseded
 kind: architecture
 importance: high
-updated: 2026-10-07
+updated: 2026-10-08
 topic: react-vite-project-layout
 source_logs:
   - "[[日志/2026-10-07-React与Vite架构及目录整改]]"
+  - "[[日志/2026-10-08-仅保留分层叙事与入卷场景]]"
 supersedes: null
 ---
 
 # ADR-002：React + Vite 与标准目录
+
+2026-10-08由[[决策/ADR-003-仅保留分层叙事与入卷场景]]替代。React + Vite及source统一源码继续采用；以下双应用、旧引擎与归档布局仅作为历史决策保留。
 
 ## 用户要求
 

@@ -21,9 +21,6 @@ function Masthead({ shot, total, onRestart }) {
         <span id="chapter">{shot.chapterTitle}</span>
         <span id="shot-number">{String(shot.id).padStart(2, '0')} / {total}</span>
       </div>
-      <a className="main-entry-link" id="main-entry-link" href={`${import.meta.env.BASE_URL}index.html#read-story`} target="_top">
-        返回原交互入口 ↗
-      </a>
     </header>
   );
 }
@@ -148,7 +145,7 @@ export function StoryPage() {
       <main
         ref={player.experienceRef} id="experience" aria-label="牡丹真国色互动水墨长卷"
         data-shot={shot.id} data-time={player.time.toFixed(3)} data-playing={player.playing} data-view={view}
-        style={{ '--story-paper-texture': `url("${assetUrl('assets/experience/xp/textures/paper/texture.jpg')}")` }}
+        style={{ '--story-paper-texture': `url("${assetUrl('assets/story/textures/paper.jpg')}")` }}
       >
         <canvas ref={player.canvasRef} id="stage" aria-label="分层水墨动画" {...player.pointerEvents} />
         <div className="paper-grain" aria-hidden="true" />

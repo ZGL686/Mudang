@@ -2,9 +2,10 @@
 /.cache/
 /dist/
 /materials/local/
-/docs/qa/legacy/clip-*-frames/
-/docs/qa/legacy/opening-review/
-/docs/qa/legacy/scroll-review/
+/docs/qa/current/story-frames/
+/docs/qa/current/source-contact-sheets/
+/docs/qa/current/clip-*-frames/
+/docs/qa/current/*-motion.mp4
 
 node_modules/
 __pycache__/

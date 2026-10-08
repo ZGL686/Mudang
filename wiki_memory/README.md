@@ -22,10 +22,11 @@
 
 ## 本项目的重要来源
 
-- 网页说明：网页/网页/README.md
-- 分镜时间线：网页/网页/story-timeline.json
-- 图层状态：网页/网页/story-layer-manifest.json
-- 人物动画记录：网页/网页/story-assets/layers/人物动画制作记录.md
-- 原交互浏览器检查：网页/网页/.qa/original-experience-checks.json
+- 工程说明与结构：README.md、docs/STRUCTURE.md
+- 分镜时间线：source/data/story-timeline.json
+- 图层状态：source/data/story-layer-manifest.json
+- 人物动画记录：materials/prompts/story/人物动画制作记录.md
+- 当前检查报告：docs/qa/current/cleanup-review.json
+- 旧站与旧QA：通过Git提交2b6d5e8追溯；本轮范围见[[决策/ADR-003-仅保留分层叙事与入卷场景]]。
 
 记忆维护约定见 [[AGENTS|AGENTS.md]]。附件中的原始架构说明保存在 [[llm-wiki|LLM Wiki 参考]]。

@@ -1,68 +1,58 @@
-# 牡丹真国色 · 互动水墨长卷
+# 牡丹真国色 · 分层叙事长卷
 
-本项目使用 **React + Vite**，以六场十八镜讲述牡丹文化。页面组件、交互逻辑、故事数据和样式集中在 `source/`；运行素材、制作材料、工具及历史记录分别管理。
+项目使用 **React + Vite + Canvas 2D**，只保留分层叙事封面与点击「入卷」后的六场十八镜播放，总长 **119 秒（约 2 分钟）**。播放界面保留播放/暂停、时间进度、章节跳转、环境声和「读花史」原文弹窗。
 
-## 启动项目
+## 启动
 
-使用 Node.js 24 和 npm，在项目根目录执行：
+推荐 Node.js 24；项目也支持 Node.js 22.12 及以上的 22.x。在工程根目录执行：
 
 ```sh
 npm ci
 npm run dev
 ```
 
-本地开发地址为 <http://127.0.0.1:5173/>。通过 Vite 服务访问页面；不要双击 HTML 文件运行。
+访问 [本地开发页面](http://127.0.0.1:5173/)。`/`、`/index.html` 与兼容地址 `/experience.html` 都加载 `source/main.jsx` 中的同一个 `StoryPage` 应用。通过 Vite 服务运行页面。
 
-| 页面 | 地址 | 实现 |
-| --- | --- | --- |
-| 互动水墨长卷 | `/` 或 `/index.html` | React 页面与六场阅读组件，保留原 WebGL 图形引擎 |
-| 六场花史阅读 | `/index.html?view=reading#read-story` | React 阅读视图 |
-| 十八镜分层故事 | `/experience.html` | React 播放器与 Canvas 2D 分层渲染器 |
-
-两份根目录 HTML 是 Vite 入口，分别加载 `source/main.jsx`、`source/story.jsx`。界面由 React 组件构成，页面间链接可相互跳转。
-
-## 常用命令
+## 命令
 
 | 命令 | 用途 |
 | --- | --- |
 | `npm run dev` | 开发服务器，端口 `5173` |
 | `npm run build` | 构建到 `dist/` |
-| `npm run preview` | 在端口 `4173` 预览已构建的 `dist/` |
-| `npm run lint` | 检查应用源代码与工程配置 |
-| `npm run check` | 检查目录、入口、资源、119 秒时间线和 React 六场内容 |
-| `npm run check:art` | 校验保留引擎的适配结果、资源与 26 份图集遮罩，需要 Python |
-| `npm run render:story` | 用项目依赖生成十八镜离线画面与动作接触表 |
+| `npm run preview` | 在端口 `4173` 预览构建结果 |
+| `npm run lint` | 检查源码与工程配置 |
+| `npm run check` | 检查单应用入口、运行资源、119 秒时间线及原文内容 |
+| `npm run render:story` | 生成十八镜离线画面和动作接触表 |
 | `npm run data:timeline` | 从已提取的原文数据重建时间线，需要 Python |
-| `npm run art:engine` | 从保留的引擎原始快照重建适配后的脚本，需要 Python |
 
-Python 工具使用 Python 3.10 或以上。素材检查与制作另需：
+Python 数据工具需要 Python 3.10 或以上；重新提取原始图片及生成参考接触表时还需要 Pillow：
 
 ```sh
 python -m pip install -r scripts/requirements.txt
 ```
 
-可以在本地 `.env.local` 中指定解释器，例如 `PYTHON=C:/Python312/python.exe`。这些 Python npm 命令会读取此文件；未指定时依次查找 Windows 的 `py -3`、`python3`、`python`。`.env.local` 已被 Git 忽略。视频制作额外需要 PATH 中的 FFmpeg，详细命令见 [工具说明](scripts/README.md)。
+可在 Git 忽略的 `.env.local` 中设置 `PYTHON` 解释器路径。数据处理、离线渲染和可选 FFmpeg 镜头视频命令见 [工具说明](scripts/README.md)。
 
-## 去哪里修改
+## 目录
 
-| 内容 | 目录 |
+| 内容 | 位置 |
 | --- | --- |
-| React 组件、Hooks、样式、数据 | [`source/`](source/) |
-| 浏览器直接使用的图像、字体、音频、视频 | [`public/assets/`](public/assets/) |
-| 保留的第三方图形引擎 | [`public/vendor/experience/`](public/vendor/experience/) |
-| 用户原文、参考图、素材底稿、提示词 | [`materials/`](materials/README.md) |
-| 数据处理、素材制作、QA 脚本 | [`scripts/`](scripts/README.md) |
-| 目录规范、QA 与旧版归档 | [`docs/`](docs/STRUCTURE.md) |
-| 项目记忆与按对话提交协议 | [`wiki_memory/`](wiki_memory/AGENTS.md) |
+| React 播放界面、生命周期与 Canvas 渲染器 | `source/features/story/` |
+| 时间线、图层清单、提取的原文 | `source/data/` |
+| 运行图层、环境声与纸纹 | `public/assets/story/` |
+| 用户原文、原图、分层底稿、提示词与参考视频 | [materials/](materials/README.md) |
+| 数据处理与 QA 工具 | [scripts/](scripts/README.md) |
+| 目录说明与当前检查报告 | [docs/](docs/STRUCTURE.md) |
+| 工程记忆和提交协议 | [wiki_memory/](wiki_memory/AGENTS.md) |
 
-完整目录职责、修改边界和旧路径映射见 [目录结构说明](docs/STRUCTURE.md)。原始 Word 文档和参考图已保留，原始 ZIP、重复解包目录和本地站点快照位于被忽略的 `materials/local/`。
+原 WebGL 主站、独立阅读页面及其专用引擎、素材、制作工具和旧实现归档已移除。`experience.html` 仅为兼容原预览地址保留的 HTML 入口。原文、原图和当前故事制作资料继续保留。
 
-## 图形引擎与验收范围
+## 制作与验证边界
 
-主入口保留了原站的 WebGL 场景、着色器、模型与交互引擎。React 管理页面界面，引擎在组件挂载后每个文档加载一次；页面切换使用完整文档导航，相关代码更新使用整页重载。引擎迁移适配由 `scripts/lib/adapt-experience-engine.py` 统一生成，修改前的原始脚本保存在 `materials/artwork/experience/source-app.js`。
+十八镜仍是制作中的分层叙事预览，时间线的 `artReady` 均为 `false`。结构检查和离线画面检查不代表美术、角色动作、真实设备交互或参赛验收完成。
 
-历史 QA 记录位于 `docs/qa/legacy/`，迁移后的工具记录写入 `docs/qa/current/`，本轮浏览器检查范围见 `docs/qa/react-migration/browser-review.json`。时间线、资源存在、React 内容渲染及离线画面检查各有明确范围；这些记录不等同于所有设备上的交互验收。原主入口在内置浏览器中仍显示纸色空白，导航、六场阅读与独立分层预览可用；原 WebGL 图形问题需专项诊断。十八镜素材与角色动作也保留原有制作待办，不能据架构迁移认定作品已完成参赛验收。
+当前检查报告保存在 `docs/qa/current/`；离线画面、连续帧和接触表是可重新生成的本地输出，不提交 Git。清理前的旧 QA 与实现可从 Git 提交 `2b6d5e8` 追溯，工程记忆日志继续保留。
 
-原站代码、模型、字体、音频和部分纹理仍随项目保留，来源及授权处理沿用 [原版说明](docs/archive/pre-react/README.md)。正式参赛前需核对相应授权与历史叙述出处。
+当前环境声 `public/assets/story/audio/ambient.mp3` 和纸纹 `public/assets/story/textures/paper.jpg` 沿用原项目素材，未完成版权核验。正式发布前仍需核对保留素材的授权及历史叙述出处。
 
-当前未配置生产部署。`npm run build` 生成本地构建产物；开发与预览地址均为本机地址。
+当前未配置生产部署；`npm run build` 生成本地构建产物。

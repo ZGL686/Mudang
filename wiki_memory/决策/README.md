@@ -3,11 +3,12 @@ type: knowledge
 status: active
 kind: architecture
 importance: high
-updated: 2026-10-07
+updated: 2026-10-08
 topic: decisions-index
 source_logs:
   - "[[日志/2026-10-02-初始化工程记忆]]"
   - "[[日志/2026-10-07-React与Vite架构及目录整改]]"
+  - "[[日志/2026-10-08-仅保留分层叙事与入卷场景]]"
 supersedes: null
 ---
 
@@ -19,7 +20,11 @@ supersedes: null
 
 - [[决策/ADR-001-按对话提交并推送|ADR-001：按完整对话提交并推送 GitHub]]
 
-- [[决策/ADR-002-React与Vite及标准目录|ADR-002：React + Vite 与标准目录]]
+- [[决策/ADR-003-仅保留分层叙事与入卷场景|ADR-003：仅保留分层叙事与入卷场景]]
+
+## 历史决策
+
+- [[决策/ADR-002-React与Vite及标准目录|ADR-002：React + Vite 与标准目录（已替代）]]
 
 ## 决策状态
 

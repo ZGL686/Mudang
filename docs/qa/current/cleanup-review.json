@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-08",
+  "baselineRevision": "2b6d5e865fa909a5051556732b5b8cf376ae5d53",
+  "scope": "Only layered story cover and 119-second, 18-shot scroll playback",
+  "entries": [
+    "/",
+    "/index.html",
+    "/experience.html"
+  ],
+  "sharedEntry": "source/main.jsx",
+  "commandsPassed": [
+    "npm run lint",
+    "npm run check",
+    "npm run build"
+  ],
+  "publicAssets": {
+    "before": {
+      "files": 95,
+      "bytes": 108997426
+    },
+    "after": {
+      "files": 35,
+      "bytes": 74720885
+    },
+    "unusedFiles": 0,
+    "layers": 33,
+    "audio": 1,
+    "paperTexture": 1
+  },
+  "cleanup": {
+    "legacyAndGeneratedFilesRemoved": 205,
+    "bytesRemoved": 148574617,
+    "duplicateStartupModuleRemoved": true,
+    "oldQaAvailableAtRevision": "2b6d5e8",
+    "generatedQaIgnored": true,
+    "unusedDependenciesRemoved": [
+      "eslint-plugin-react-refresh",
+      "numpy"
+    ]
+  },
+  "preservation": {
+    "timelineAndSourceDocumentsUnchanged": true,
+    "allLayerImageBytesUnchanged": true,
+    "allFiveRendererModulesUnchanged": true,
+    "sourceDocumentsImagesDraftsAndReferencesUnchanged": true,
+    "migratedAudioAndPaperHashesMatch": true,
+    "preexistingRunStartCmdModified": false
+  },
+  "browser": {
+    "browser": "Chromium headless",
+    "checks": [
+      "root opens retained cover",
+      "old entry link removed",
+      "canvas paints a varied scene",
+      "enter starts playback",
+      "pause holds playhead",
+      "arrow key works while playback button focused",
+      "reading dialog pauses playback",
+      "closing reading dialog resumes playback",
+      "ambient audio loads from retained asset path",
+      "sound can be muted",
+      "chapter 1 navigation",
+      "chapter 2 navigation",
+      "chapter 3 navigation",
+      "chapter 4 navigation",
+      "chapter 5 navigation",
+      "chapter 6 navigation",
+      "shot 1 renders via seek",
+      "shot 2 renders via seek",
+      "shot 3 renders via seek",
+      "shot 4 renders via seek",
+      "shot 5 renders via seek",
+      "shot 6 renders via seek",
+      "shot 7 renders via seek",
+      "shot 8 renders via seek",
+      "shot 9 renders via seek",
+      "shot 10 renders via seek",
+      "shot 11 renders via seek",
+      "shot 12 renders via seek",
+      "shot 13 renders via seek",
+      "shot 14 renders via seek",
+      "shot 15 renders via seek",
+      "shot 16 renders via seek",
+      "shot 17 renders via seek",
+      "shot 18 renders via seek",
+      "119 second end state",
+      "replay starts at first shot",
+      "wheel scrubs retained scene",
+      "cover button visible at 390x844",
+      "cover enters at 390x844",
+      "no horizontal overflow at 390x844",
+      "cover button visible at 320x568",
+      "cover enters at 320x568",
+      "no horizontal overflow at 320x568",
+      "cover button visible at 844x390",
+      "cover enters at 844x390",
+      "no horizontal overflow at 844x390",
+      "cover button visible at 1920x1080",
+      "cover enters at 1920x1080",
+      "no horizontal overflow at 1920x1080",
+      "legacy URL retains shot deep link",
+      "reduced motion enters paused",
+      "subdirectory deployment index",
+      "subdirectory deployment experience.html?shot=9&at=4",
+      "emulated touch swipe scrubs playhead",
+      "no browser exceptions",
+      "no failed resource responses"
+    ],
+    "errors": [],
+    "failedResponses": [],
+    "screenshotsOutsideRepository": true,
+    "physicalDeviceAndAudioListeningVerified": false,
+    "passed": 56,
+    "viewports": [
+      [
+        390,
+        844
+      ],
+      [
+        320,
+        568
+      ],
+      [
+        844,
+        390
+      ],
+      [
+        1920,
+        1080
+      ]
+    ],
+    "prefix": "/mudang/"
+  },
+  "fixes": [
+    "Low-height landscape cover entry is visible",
+    "Arrow/Home/End keys work with buttons focused while Space preserves native activation",
+    "Asset URLs resolve from the document deployment base, including CSS paper texture under a subdirectory"
+  ],
+  "notVerified": [
+    "physical devices and different DPRs",
+    "audio listening quality",
+    "completed artwork and character actions",
+    "asset licensing and historical source verification"
+  ],
+  "artReady": false
+}
